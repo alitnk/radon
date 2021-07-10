@@ -1,0 +1,45 @@
+{
+    "name": "wamadev/radon",
+    "description": ":package_description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "Alireza Zamani",
+            "email": "ali@wama.dev",
+            "homepage": "https://wama.dev"
+        }
+    ],
+    "homepage": "https://github.com/wamadev/radon",
+    "keywords": ["Laravel", "Radon"],
+    "require": {
+        "illuminate/support": "~7|~8",
+        "hekmatinasser/verta": "^1.12"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~5|~6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wama\\Radon\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wama\\Radon\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wama\\Radon\\RadonServiceProvider"
+            ],
+            "aliases": {
+                "Radon": "Wamadev\\Radon\\Facades\\Radon"
+            }
+        }
+    }
+}
