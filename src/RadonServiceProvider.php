@@ -123,14 +123,14 @@ class RadonServiceProvider extends ServiceProvider
             return $this->whereDate($column, $date->formatGregorian('Y-m-d'));
         });
 
-        \Illuminate\Database\Eloquent\Builder::macro('whereMonthJalali', function ($column, $date) {
-            $date = $date instanceof Radon ? $date : (new Radon())->month($date);
-            return $this->whereMonth($column, $date->formatGregorian('m'));
-        });
-
         \Illuminate\Database\Eloquent\Builder::macro('whereDayJalali', function ($column, $date) {
             $date = $date instanceof Radon ? $date : (new Radon())->day($date);
             return $this->whereDay($column, $date->formatGregorian('d'));
+        });
+
+        \Illuminate\Database\Eloquent\Builder::macro('whereMonthJalali', function ($column, $date) {
+            $date = $date instanceof Radon ? $date : (new Radon())->month($date);
+            return $this->whereMonth($column, $date->formatGregorian('m'));
         });
 
         \Illuminate\Database\Eloquent\Builder::macro('whereYearJalali', function ($column, $date) {
