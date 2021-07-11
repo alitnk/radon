@@ -1,9 +1,9 @@
 # Radon
 
-[![Total Downloads](http://poser.pugx.org/phpunit/phpunit/downloads)](https://packagist.org/packages/phpunit/phpunit)
-[![License](http://poser.pugx.org/phpunit/phpunit/license)](https://packagist.org/packages/phpunit/phpunit)
-[![Version](http://poser.pugx.org/phpunit/phpunit/version)](https://packagist.org/packages/phpunit/phpunit)
-[![Total Downloads](http://poser.pugx.org/phpunit/phpunit/downloads)](https://packagist.org/packages/phpunit/phpunit)
+[![Total Downloads](http://poser.pugx.org/wamadev/radon/downloads)](https://packagist.org/packages/wamadev/radon)
+[![License](http://poser.pugx.org/wamadev/radon/license)](https://packagist.org/packages/wamadev/radon)
+[![Version](http://poser.pugx.org/wamadev/radon/version)](https://packagist.org/packages/wamadev/radon)
+[![Total Downloads](http://poser.pugx.org/wamadev/radon/downloads)](https://packagist.org/packages/wamadev/radon)
 
 
 A library like [Carbon](https://github.com/briannesbitt/Carbon) but for Iranian (Jalali) calendar
