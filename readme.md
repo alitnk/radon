@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
-[![Build Status][ico-travis]][link-travis]
 
 A library like [Carbon](https://github.com/briannesbitt/Carbon) but for Iranian (Jalali) calendar
 
