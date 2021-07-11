@@ -39,6 +39,44 @@ $radonInstance->toGregorian(); // returns Carbon instance and converts the date 
 
 You can use most of the carbon's methods on a Radon instance. e.g. `$radonInstance->diffForHumans()`, `$radonInstance->addDay(10)`, `$radonInstance->setDay(1)`
 
+### Eloquent / Querying
+
+Radon introduces new querying features for Jalali dates. Available methods are:
+
+#### whereBetweenJalali 
+Note that this method is also available on `Collection` objects.
+
+Example:
+```php
+Product::whereBetweenJalali('created_at', [radon('1398-10-12'), radon('1398-11-12')])->get();
+```
+
+#### orWhereBetweenJalali
+This method is like `orWhereBetween` but for Jalali dates.
+
+#### whereDateJalali
+```php
+Comment::whereDateJalali('created_at', radon('1400-01-01'))->get(); // Gets all the comments for first day of 1400
+```
+
+#### whereDayJalali
+Compares the day
+```php
+Comment::whereDayJalali('created_at', 31); // Gets all comments for 31th
+```
+
+#### whereMonthJalali
+Compares the month
+```php
+Comment::whereMonthJalali('created_at', 1); // Gets all of Farvardin's comments
+```
+
+#### whereYearJalali
+Compares the year
+```php
+Comment::whereYearJalali('created_at', 1400); // Gets all of 1400's comments
+```
+
 ### Casts
 
 You can use the Radon cast to make the conversion process easier. To use the cast, add the cast to your field in the respective model:
