@@ -38,7 +38,7 @@
                 "Wama\\Radon\\RadonServiceProvider"
             ],
             "aliases": {
-                "Radon": "Wamadev\\Radon\\Facades\\Radon"
+                "Radon": "Wama\\Radon\\Facades\\Radon"
             }
         }
     }
