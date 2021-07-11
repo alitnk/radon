@@ -1,7 +1,7 @@
 {
     "name": "wamadev/radon",
     "description": ":package_description",
-    "license": "license",
+    "license": "MIT",
     "authors": [
         {
             "name": "Alireza Zamani",
@@ -10,7 +10,7 @@
         }
     ],
     "homepage": "https://github.com/wamadev/radon",
-    "keywords": ["Laravel", "Radon"],
+    "keywords": ["Laravel", "Radon", "Carbon", "Jalali Date", "Shamsi Date", "Iranian Date", "تاریخ شمسی"],
     "require": {
         "illuminate/support": "~7|~8",
         "hekmatinasser/verta": "^1.12"
