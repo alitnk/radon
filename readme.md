@@ -137,7 +137,7 @@ If you discover any security related issues, please email author email instead o
 
 ## License
 
-license. Please see the [license file](license) for more information.
+license. Please see the [license file](LICENSE) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/wamadev/radon.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/wamadev/radon.svg?style=flat-square
