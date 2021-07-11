@@ -1,7 +1,10 @@
 # Radon
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
+[![Total Downloads](http://poser.pugx.org/phpunit/phpunit/downloads)](https://packagist.org/packages/phpunit/phpunit)
+[![License](http://poser.pugx.org/phpunit/phpunit/license)](https://packagist.org/packages/phpunit/phpunit)
+[![Version](http://poser.pugx.org/phpunit/phpunit/version)](https://packagist.org/packages/phpunit/phpunit)
+[![Total Downloads](http://poser.pugx.org/phpunit/phpunit/downloads)](https://packagist.org/packages/phpunit/phpunit)
+
 
 A library like [Carbon](https://github.com/briannesbitt/Carbon) but for Iranian (Jalali) calendar
 
@@ -138,10 +141,6 @@ If you discover any security related issues, please email author email instead o
 
 license. Please see the [license file](LICENSE) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/wamadev/radon.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/wamadev/radon.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/wamadev/radon/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/12345678/shield
 
 [link-packagist]: https://packagist.org/packages/wamadev/radon
 [link-downloads]: https://packagist.org/packages/wamadev/radon
