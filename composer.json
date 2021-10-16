@@ -1,15 +1,14 @@
 {
-    "name": "wamadev/radon",
+    "name": "alitnk/radon",
     "description": ":package_description",
     "license": "MIT",
     "authors": [
         {
             "name": "Alireza Zamani",
-            "email": "ali@wama.dev",
-            "homepage": "https://wama.dev"
+            "email": "alirezazamani2922@gmail.com",
         }
     ],
-    "homepage": "https://github.com/wamadev/radon",
+    "homepage": "https://github.com/alitnk/radon",
     "keywords": ["Laravel", "Radon", "Carbon", "Jalali Date", "Shamsi Date", "Iranian Date", "تاریخ شمسی"],
     "require": {
         "illuminate/support": "~7|~8",
@@ -21,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Wama\\Radon\\": "src/"
+            "Radon\\Radon\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -29,16 +28,16 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Wama\\Radon\\Tests\\": "tests"
+            "Radon\\Radon\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Wama\\Radon\\RadonServiceProvider"
+                "Radon\\Radon\\RadonServiceProvider"
             ],
             "aliases": {
-                "Radon": "Wama\\Radon\\Facades\\Radon"
+                "Radon": "Radon\\Radon\\Facades\\Radon"
             }
         }
     }
