@@ -1,8 +1,8 @@
 # Radon
 
-[![Total Downloads](http://poser.pugx.org/wamadev/radon/downloads)](https://packagist.org/packages/wamadev/radon)
-[![Version](http://poser.pugx.org/wamadev/radon/version)](https://packagist.org/packages/wamadev/radon)
-[![License](http://poser.pugx.org/wamadev/radon/license)](https://packagist.org/packages/wamadev/radon)
+[![Total Downloads](http://poser.pugx.org/alitnk/radon/downloads)](https://packagist.org/packages/alitnk/radon)
+[![Version](http://poser.pugx.org/alitnk/radon/version)](https://packagist.org/packages/alitnk/radon)
+[![License](http://poser.pugx.org/alitnk/radon/license)](https://packagist.org/packages/alitnk/radon)
 
 A library like [Carbon](https://github.com/briannesbitt/Carbon) but for Iranian (Jalali) calendar
 
@@ -11,7 +11,7 @@ A library like [Carbon](https://github.com/briannesbitt/Carbon) but for Iranian 
 Via Composer
 
 ``` bash
-$ composer require wamadev/radon
+$ composer require alitnk/radon
 ```
 
 ## Usage
@@ -140,9 +140,9 @@ If you discover any security related issues, please email author email instead o
 license. Please see the [license file](LICENSE) for more information.
 
 
-[link-packagist]: https://packagist.org/packages/wamadev/radon
-[link-downloads]: https://packagist.org/packages/wamadev/radon
-[link-travis]: https://travis-ci.org/wamadev/radon
+[link-packagist]: https://packagist.org/packages/alitnk/radon
+[link-downloads]: https://packagist.org/packages/alitnk/radon
+[link-travis]: https://travis-ci.org/alitnk/radon
 [link-styleci]: https://styleci.io/repos/12345678
 [link-author]: https://github.com/alitnk
 [link-contributors]: ../../contributors
